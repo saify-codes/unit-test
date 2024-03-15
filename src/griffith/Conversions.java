@@ -20,8 +20,7 @@ public class Conversions {
 	}
 
 	public String upperCaseToLowerCase(String input) {
-		// Implementation will be added later
-		return null;
+		return input.toLowerCase();
 	}
 
 	public String lowerCaseToUpperCase(String input) {
