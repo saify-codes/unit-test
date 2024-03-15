@@ -21,4 +21,12 @@ public class ConversionsTest {
 		assertEquals(37.0, converter.fahrenheitToCelsius(98.6), 0.001);
 		assertEquals(-40.0, converter.fahrenheitToCelsius(-40), 0.001);
 	}
+
+	@Test
+	public void testMilesToKilometer() {
+		Conversions converter = new Conversions();
+		assertEquals(1.60934, converter.milesToKilometer(1), 0.001);
+		assertEquals(8.0467, converter.milesToKilometer(5), 0.001);
+		assertEquals(0.0, converter.milesToKilometer(0), 0.001);
+	}
 }
