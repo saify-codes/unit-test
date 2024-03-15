@@ -24,8 +24,7 @@ public class Conversions {
 	}
 
 	public String lowerCaseToUpperCase(String input) {
-		// Implementation will be added later
-		return null;
+		return input.toUpperCase();
 	}
 
 }
