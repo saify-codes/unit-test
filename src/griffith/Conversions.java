@@ -12,8 +12,7 @@ public class Conversions {
 	}
 
 	public double milesToKilometer(double miles) {
-		// Implementation will be added later
-		return 0.0;
+		return miles * 1.60934;
 	}
 
 	public double kilometerToMiles(double kilometers) {
