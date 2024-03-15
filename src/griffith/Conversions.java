@@ -16,8 +16,7 @@ public class Conversions {
 	}
 
 	public double kilometerToMiles(double kilometers) {
-		// Implementation will be added later
-		return 0.0;
+		return kilometers / 1.60934;
 	}
 
 	public String upperCaseToLowerCase(String input) {
