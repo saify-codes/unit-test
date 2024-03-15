@@ -4,8 +4,7 @@ public class Conversions {
 
 	// Method stubs
 	public double celsiusToFahrenheit(double celsius) {
-		// Implementation will be added later
-		return 0.0;
+		return (celsius * 9 / 5) + 32;
 	}
 
 	public double fahrenheitToCelsius(double fahrenheit) {
@@ -32,4 +31,5 @@ public class Conversions {
 		// Implementation will be added later
 		return null;
 	}
+
 }
