@@ -29,4 +29,12 @@ public class ConversionsTest {
 		assertEquals(8.0467, converter.milesToKilometer(5), 0.001);
 		assertEquals(0.0, converter.milesToKilometer(0), 0.001);
 	}
+
+	@Test
+	public void testKilometerToMiles() {
+		Conversions converter = new Conversions();
+		assertEquals(1.0, converter.kilometerToMiles(1.60934), 0.001);
+		assertEquals(5.0, converter.kilometerToMiles(8.0467), 0.001);
+		assertEquals(0.0, converter.kilometerToMiles(0), 0.001);
+	}
 }
