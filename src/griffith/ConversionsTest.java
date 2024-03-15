@@ -45,4 +45,12 @@ public class ConversionsTest {
 		assertEquals("john", converter.upperCaseToLowerCase("JOHN"));
 		assertEquals("jimmy", converter.upperCaseToLowerCase("JIMMY"));
 	}
+
+	@Test
+	public void testLowerCaseToUpperCase() {
+		Conversions converter = new Conversions();
+		assertEquals("HELLO", converter.lowerCaseToUpperCase("hello"));
+		assertEquals("OPENAI", converter.lowerCaseToUpperCase("openai"));
+		assertEquals("AI", converter.lowerCaseToUpperCase("ai"));
+	}
 }
